@@ -1,0 +1,15 @@
+<project name = "antlearning" default="" basedir=".">
+<property name="test.home" value="${basedir}"/>
+	 <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+	
+  <property name="num1" value="5"/>	
+  <property name="num2" value="10"/>
+	
+	<math result="sum" operand1="${num1}" operation ="+" operand2="${num2}"/>
+
+    <target name="first">
+    <echo>The sum of ${num1} and ${num2} is ${sum}</echo>
+    </target>
+    
+   
+    </project>
