@@ -2,8 +2,8 @@
 <property name="test.home" value="${basedir}"/>
 	 <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
 	
-  <property name="num1" value="5"/>	
-  <property name="num2" value="10"/>
+  <property name="num1" value="2"/>	
+  <property name="num2" value="15"/>
 	
 	<math result="sum" operand1="${num1}" operation ="+" operand2="${num2}"/>
 
