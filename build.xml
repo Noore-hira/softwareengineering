@@ -7,7 +7,7 @@
 	
 	<math result="sum" operand1="${num1}" operation ="+" operand2="${num2}"/>
 
-    <target name="first">
+    <target name="addition">
     <echo>The sum of ${num1} and ${num2} is ${sum}</echo>
     </target>
     
